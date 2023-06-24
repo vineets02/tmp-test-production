@@ -15,7 +15,7 @@ const stripe = require("stripe")(
   "sk_test_51NIiutSBgJ9qqJc76nOwhfDUIKVw2GR8bWS70cjc9SkpZ25wt9KwMTqPwEBEjegFEThQmECNmZxSlL252kv2M37i00u8Jj0bxV"
 )
 
-const YOUR_DOMAIN = "http://localhost:8080"
+const YOUR_DOMAIN = "https://tortoise-motion-pictures.onrender.com"
 const cors = require("cors")
 const movieModel = require("./models/movieModel")
 
